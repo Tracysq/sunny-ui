@@ -6,9 +6,11 @@ import Test from './components/Test.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
-  <Test />
+  <!-- <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="Hello Vue 3 + Vite" /> -->
+  <div>Navigator | <router-link to="/">Test</router-link> | <router-link to="/xxx">Test2</router-link></div>
+  <hr>
+  <router-view />
 </template>
 
 <style>
