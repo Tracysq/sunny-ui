@@ -8,8 +8,8 @@ import Test from './components/Test.vue'
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + Vite" /> -->
-  <div>Navigator | <router-link to="/">Home</router-link> | <router-link to="/doc">Doc</router-link></div>
-  <hr>
+  <!-- <div>Navigator | <router-link to="/">Home</router-link> | <router-link to="/doc">Doc</router-link></div> -->
+  <!-- <hr> -->
   <router-view />
 </template>
 
@@ -20,6 +20,6 @@ import Test from './components/Test.vue'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
