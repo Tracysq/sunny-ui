@@ -1,73 +1,14 @@
 <template>
     <div>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
-        <p>Switch 组件</p>
+        <Switch />
     </div>
 </template>
+
+<script lang="ts">
+import Switch from '../lib/Swtich.vue'
+export default {
+    components: {
+        Switch
+    }
+}
+</script>
