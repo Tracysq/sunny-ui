@@ -8,7 +8,7 @@ import Test from './components/Test.vue'
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + Vite" /> -->
-  <div>Navigator | <router-link to="/">Test</router-link> | <router-link to="/xxx">Test2</router-link></div>
+  <div>Navigator | <router-link to="/">Home</router-link> | <router-link to="/doc">Doc</router-link></div>
   <hr>
   <router-view />
 </template>
